@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* -----------Top banner style--------------- */
+
+.main-content {
+  margin: 20px 50px;
+}
+.all-section {
+  border: 1px solid white;
+  margin: 20px;
+  justify-content: center;
+}
+.banner-section {
+  display: flex;
+  justify-content: center;
+}
+.top-banner {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background-color: #161616;
+  border-radius: 20px;
+  margin-left: 5px;
+  margin-bottom: 50px;
+}
+.banner-heading {
+  font-size: 70px;
+  font-weight: bold;
+  line-height: 80px;
+}
+.description {
+  padding: 20px 0;
+}
+.banner-text {
+  color: white;
+  padding: 40px;
+  margin-top: 50px;
+}
+
+.banner-image img {
+  width: 100%;
+}
+
+.live-watch {
+  background-color: #dd0000;
+  color: white;
+  border: 10px;
+  padding: 15px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+/* -----------Top banner style end--------------- */
+
+/* ---------side bar style start ---------- */
+
+.side-bar {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  width: 252px;
+  height: 252px;
+  background-color: #161616;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+#upcoming {
+  margin: 5px;
+  padding: 10px;
+  background-color: #dd0000;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+}
+#all-group {
+  margin: 5px;
+  padding: 10px 45px;
+  background-color: white;
+  color: #dd0000;
+  border-radius: 5px;
+  text-decoration: none;
+}
+#blog {
+  margin: 5px;
+  padding: 10px 65px;
+  background-color: white;
+  color: #dd0000;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* ---------side bar style end ---------- */
+.display-column {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+  justify-content: center;
+  margin: 20px 40px;
+}
+
+.lower-part {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+.ger-fer {
+  width: 312px;
+  height: 242px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.group {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.vs {
+  padding: 0 10px;
+}
+.ger-vs-fra {
+  padding: 20px;
+  text-align: center;
+}
+.date-time {
+  text-align: center;
+  color: #948c8c;
+}
+/* ----------------footer section ------------------- */
+
+.footer-section {
+  width: 100%;
+  height: 444px;
+  background-color: #161616;
+}
+
+.footer-goal {
+  color: #b9b9b9;
+  text-align: center;
+  padding-top: 120px;
+}
+.hr-line {
+  border: 1px solid gray;
+  margin: 40px 100px;
+}
+
+nav ul {
+  float: center;
+  margin-right: 20px;
+}
+ul li a {
+  text-decoration: none;
+  color: #b9b9b9;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+}
+.menu-item {
+  display: flex;
+  justify-content: center;
+}
